@@ -1,0 +1,36 @@
+body{
+    height: 65vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(52, 53, 52);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    text-align: center;
+    color: rgb(42, 250, 0);
+    text-shadow: 1px 1px 1px  rgb(67, 109, 69);
+    padding-bottom: 20px;
+}
+.card{
+    background-color: rgb(100, 165, 103);
+    padding: 30px;
+    margin: 20px;
+    border-radius: 15px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.form{
+    margin: 5px;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: rgb(80, 236, 114);
+}
+button:hover{
+    background-color: rgb(55, 179, 82);
+    cursor: pointer;
+}
