@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #121212, #2c2c54);
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: rgba(30, 30, 30, 0.9);
+  padding: 25px;
+  border-radius: 15px;
+  width: 350px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 28px;
+  font-weight: 600;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 12px;
+  background: #2e2e5e;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  outline: none;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+input[type="text"]::placeholder {
+  color: #aaaaaa;
+}
+
+input[type="text"]:focus {
+  background: #3a3a6a;
+  border: 1px solid #6200ea;
+}
+
+button {
+  width: 25%;
+  padding: 12px;
+  background: linear-gradient(135deg, #6200ea, #3700b3);
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #3700b3, #6200ea);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: linear-gradient(135deg, #2e2e5e, #232345);
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+li.completed {
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+
+li button {
+  background: linear-gradient(135deg, #e53935, #b71c1c);
+  border: none;
+  padding: 6px 8px;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+li button:hover {
+  background: linear-gradient(135deg, #b71c1c, #e53935);
+}
